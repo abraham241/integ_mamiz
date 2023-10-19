@@ -7,30 +7,38 @@
     <title>mamiz</title>
 </head>
 <body>
-    <nav class=" py-10 px-32 flex justify-between">
-        <div class="flex justify-between gap-20">
-            <div>
-                <img class="" src="./images/Rectangle 467 (1).png" alt="">
-            </div>
-            <div class="flex justify-between gap-5 font-bold py-2 mb:hidden">
-                <ul><a href="">Feature</a></ul>
-                <ul><a href="">pricing</a></ul>
-                <ul><a href="">careers</a></ul>
-                <ul><a href="">help</a></ul>
-            </div>
+    <nav class="py-10 px-32 flex justify-between">
+        <!-- Logo -->
+        <div class="">
+            <img class="" src="./images/Rectangle 467 (1).png" alt="">
         </div>
-
-        <div class="flex justify-between">
+    
+        <!-- Liens -->
+        <div class="mr-20 hidden md:flex justify-between gap-8 font-bold py-2">
+            <ul><a href="">Feature</a></ul>
+            <ul><a href="">Pricing</a></ul>
+            <ul><a href="">Careers</a></ul>
+            <ul><a href="">Help</a></ul>
+        </div>
+    
+        <!-- Boutons -->
+        <div class="hidden md:flex justify-between">
             <button><img class="h-12" src="./images/google-removebg-preview.png" alt=""></button>
             <button><img class="h-10" src="./images/app.png" alt=""></button>
         </div>
     </nav>
+    
+    
+    
+    
+    
+    
 
-    <section class="bg-cener bg-no-repeat" style="background-image: url(images/background.png);">
-        <div class="flex justify-between w-full px-32 py-10 gap-20">
+    <section class="bg-cener bg-cover bg-no-repeat" style="background-image: url(images/background.png);">
+        <div class="flex justify-between w-full px-32 py-10 gap-20 lg:flex-row  md: flex-col ">
             <!-- titre & text -->
-            <div class="pt-48">
-                <h1 class="text-5xl font-bold">the easiest way to <br> manage projects</h1><br>
+            <div class="pt-48 md-bloc sm:bloc">
+                <h1 class="text-5xl font-bold leading-[1.1]">the easiest way to <br> manage projects</h1><br>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum <br> quod vero! Error numquam vero minus! In ea beatae fugit?</p>
                 <div class="py-7 flex gap-3">
                     <button class="bg-red-500 h-12 w-28 rounded text-white font-bold"><a href="">Get started</a></button>
@@ -40,7 +48,7 @@
             <!-- fin titre & text -->
 
             <!-- image right -->
-            <div>
+            <div class="">
                 <img src="./images/Mobile.png" alt="">
             </div>
             <!-- fin image right -->
