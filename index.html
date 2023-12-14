@@ -14,7 +14,7 @@
         </div>
     
         <!-- Liens -->
-        <div class="mr-20 hidden md:flex justify-between gap-8 font-bold py-2">
+        <div class="mr-32 hidden md:flex justify-between gap-8 font-bold py-2">
             <ul><a href="">Feature</a></ul>
             <ul><a href="">Pricing</a></ul>
             <ul><a href="">Careers</a></ul>
@@ -22,9 +22,25 @@
         </div>
     
         <!-- Boutons -->
-        <div class="hidden md:flex justify-between">
-            <button><img class="h-12" src="./images/google-removebg-preview.png" alt=""></button>
-            <button><img class="h-10" src="./images/app.png" alt=""></button>
+        <div class="flex justify-between gap-2">
+            <button class="bg-black h-11 w-[140px] rounded text-white flex gap-2 py-1 px-2" >
+                <img class="h-7" src="/images/play.svg" alt="">
+                <div class="text-xs">
+                    <p>Dowload on the</p>
+                    <span>
+                        PLAY STORE
+                    </span>
+                </div>
+            </button>
+            <button class="bg-black h-11 w-[140px] rounded text-white flex gap-2 py-1 px-2" >
+                <img class="h-7" src="/images/apple.png" alt="">
+                <div class="text-xs">
+                    <p>Dowload on the</p>
+                    <span>
+                        PLAY STORE
+                    </span>
+                </div>
+            </button>
         </div>
     </nav>
     
@@ -42,7 +58,14 @@
                 <p class="text-base lg:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum earum quod vero! Error numquam vero minus! In ea beatae fugit?</p>
                 <div class="py-7 flex flex-col lg:flex-row gap-3">
                     <a class="bg-red-500 h-12 pt-3 w-28 rounded text-white font-bold text-center" href="#">Get started</a>
-                    <a class="text-red-500 font-bold pt-4" href="#"><i></i> Watch Video</a>
+
+                    <a class="flex justify-between gap-2 text-red-500 pt-5" href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+                          </svg> watch video 
+                    </a>
+                    
                 </div>
             </div>
             
@@ -54,8 +77,8 @@
         </div>
     </section>
     <!-- section logo des partenaires -->
-    <section class="">
-        <div class="flex justify-between px-48  border-y border-black py-12">
+    <section class=" px-32 ">
+        <div class="flex justify-between px-48  border-y border-slate-400 py-12 px-32">
             <img src="./images/_Client logo.png" alt="">
             <img src="./images/_Client logo (1).png" alt="">
             <img src="./images/_Client logo (2).png" alt="">
@@ -126,7 +149,7 @@
         <!-- texte card -->
 
         <!-- bleu section -->
-        <section class="bg-blue-300">
+        <section class="bg-blue-300 flex justify-center items-center gap-8 p-8 ">
             <div class="flex flex-col gap-12">
                 <div>
                     <h1 class="text-3xl font-bold">
@@ -134,26 +157,127 @@
                     </h1>
                     <p>Lorem ipsum dolor sit amet.</p>
                 </div>
-                <div class="bg-white w-72  p-8 rounded ml-12 ">
-                    <img src="" alt="">
-                    <p>consectetur adipisicing elit. Assumenda et optio, ipsam tempora asperiores quia eos dicta quaerat tenetur delectus iusto obcaecati ex distinctio, voluptatum consectetur nulla, debitis officiis adipisci.</p><br>
+                <div class="bg-white w-80   p-8 rounded ml-12 ">
+                    <img src="./images/_Client logo (1).png" alt="">
+                    <p>consectetur adipisicing elit. quaerat tenetur delectus iusto obcaecati ex distinctio, voluptatum consectetur nulla, debitis officiis adipisci.</p><br>
                     <p class="font-bold">Floyd Miles</p>
                     <span>Lorem ipsum.</span>
                 </div>
             </div>
-            <div>
+            <div class="flex flex-col gap-8 pt-20">
                 <div class="w-96 bg-white rounded p-8 ">
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur cupiditate, vitae commodi neque at minima fugiat nihil mollitia, recusandae temporibus corrupti quas aspernatur placeat quia error eveniet fugit? Qui?</p><br>
+                    <img src="./images/_Client logo.png" alt="">
+                    <p>Lorem ipsum dolor sit, fugiat nihil mollitia, recusandae temporibus corrupti quas aspernatur placeat quia error eveniet fugit? Qui?</p><br>
                     <p class="font-bold">Jane Cooper</p>
                     <span>CEO Airbnb</span>
                 </div>
                 <div>
-                    <div></div>
+                    <div class="p-8 bg-white w-64">
+                        <img src="./images/_Client logo (6).png" alt="">
+                        <p>Lorem, ipsum dolor sit <br>consectetur adipisicing. </p>
+                        <p class="font-bold">Kristin Watson</p>
+                        <span>Co-fonder,strapi</span>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- bleu section -->
+
+        <!-- section base future icon -->
+        <div class="flex justify-between py-7 px-32">
+            <div>
+                <h1 class="text-5xl font-bold py-3">Our 18 years of <br>
+                    achievements
+                </h1>
+                <p>With our super powers we have reached this</p>
+            </div>
+            <div class="">
+                <div class="flex justify-between gap-12 py-7">
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="./images/Base feature icon.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-2xl">10,000+</h1>
+                            <p>Downloads per day</p> 
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="./images/Base feature icon.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-2xl">10,000+</h1>
+                            <p>Downloads per day</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="./images/Base feature icon.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-2xl">10,000+</h1>
+                            <p>Downloads per day</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-3 items-center">
+                        <div>
+                            <img src="./images/Base feature icon.png" alt="">
+                        </div>
+                        <div>
+                            <h1 class="font-bold text-2xl">10,000+</h1>
+                            <p>Downloads per day</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section base future icon -->
+
+        <!-- section avant le footer -->
+        <div class="bg-cyan-500 px-32 py-12 flex justify-between">
+            <div>
+                <div class="text-4xl font-bold pb-5">
+                    <h1>Manage all projects from <br>
+                        your mobile
+                    </h1>
+                </div>
+                <div class="">
+                    Download the app to manage your projets, keep track of <br>
+                     the progress and complete tasks without procastinating. <br> 
+                     Stay on track and complete on time!
+                </div> <br>
+                <div>
+                    <div class="flex justify-between w-[300px]">
+                        <button class="bg-black h-11 w-[140px] rounded text-white flex gap-2 py-1 px-2" >
+                            <img class="h-7" src="/images/play.svg" alt="">
+                            <div class="text-xs">
+                                <p>Dowload on the</p>
+                                <span>
+                                    PLAY STORE
+                                </span>
+                            </div>
+                        </button>
+                        <button class="bg-black h-11 w-[140px] rounded text-white flex gap-2 py-1 px-2" >
+                            <img class="h-7" src="/images/apple.png" alt="">
+                            <div class="text-xs">
+                                <p>Dowload on the</p>
+                                <span>
+                                    PLAY STORE
+                                </span>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between">
+                <img class="" src="/images/Phone Mockup 1.png" alt="">
+                <img class="" src="/images/Phone Mockup 2.png" alt="">
+            </div>
+        </div>
+        <!-- section avant le footer -->
 
     </section>
     
